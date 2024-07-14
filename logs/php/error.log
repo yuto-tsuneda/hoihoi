@@ -1,0 +1,13 @@
+[12-Jul-2024 02:27:52 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:27:52 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:06 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:06 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:07 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:08 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[12-Jul-2024 02:35:10 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/yuto/Local Sites/hoihoi/app/public/index.php on line 16
+[14-Jul-2024 16:20:49 UTC] PHP Fatal error:  Cannot redeclare my_scripts_method() (previously declared in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php:18) in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php on line 28
+[14-Jul-2024 16:20:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[14-Jul-2024 16:20:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[14-Jul-2024 16:20:52 UTC] PHP Fatal error:  Cannot redeclare my_scripts_method() (previously declared in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php:18) in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php on line 28
+[14-Jul-2024 16:20:52 UTC] PHP Fatal error:  Cannot redeclare my_scripts_method() (previously declared in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php:18) in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php on line 28
