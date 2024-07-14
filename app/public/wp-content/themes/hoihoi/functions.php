@@ -14,6 +14,7 @@ wp_enqueue_style(
   "1.0"
 );
 
+/*
 add_action("wp_enqueue_script",function(){
   wp_enqueue_script(
     "jquery",
@@ -28,4 +29,22 @@ add_action("wp_enqueue_script",function(){
     array("jquery")
   );
 });
+*/
+
+function twpp_enqueue_script(){
+  wp_enqueue_script(
+    "jquery-script",
+    get_template_directory_uri()."/jquery-3.7.1.min.js"
+  );
+
+  wp_enqueue_script(
+    "main-script",
+    get_template_directory_uri()."/index.js",
+    array("jquery")
+  );
+}
+
+add_action("wp_enqueue_scripts","twpp_enqueue_script");
+
+
 ?>

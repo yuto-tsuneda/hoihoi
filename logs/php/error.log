@@ -11,3 +11,22 @@
 [14-Jul-2024 16:20:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
 [14-Jul-2024 16:20:52 UTC] PHP Fatal error:  Cannot redeclare my_scripts_method() (previously declared in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php:18) in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php on line 28
 [14-Jul-2024 16:20:52 UTC] PHP Fatal error:  Cannot redeclare my_scripts_method() (previously declared in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php:18) in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/functions.php on line 28
+[14-Jul-2024 17:50:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "twpp_enqueue_scripts" not found or invalid function name in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/script-loader.php(2265): do_action('wp_enqueue_scri...')
+#3 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/general-template.php(3050): do_action('wp_head')
+#7 /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/header.php(7): wp_head()
+#8 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/template.php(810): require_once('/Users/yuto/Loc...')
+#9 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/template.php(745): load_template('/Users/yuto/Loc...', true, Array)
+#10 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/index.php(1): get_header()
+#12 /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/template-loader.php(106): include('/Users/yuto/Loc...')
+#13 /Users/yuto/Local Sites/hoihoi/app/public/wp-blog-header.php(19): require_once('/Users/yuto/Loc...')
+#14 /Users/yuto/Local Sites/hoihoi/app/public/index.php(19): require('/Users/yuto/Loc...')
+#15 {main}
+  thrown in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php on line 324
