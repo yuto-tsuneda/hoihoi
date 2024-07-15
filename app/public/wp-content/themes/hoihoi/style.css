@@ -8,7 +8,7 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
   height: 80px;
   align-items: center;
-  z-index: 800;
+  z-index: 50;
   top: 0;
   left: 0;
 }
@@ -476,4 +476,86 @@ header a {
 .upload img {
   max-width: 750px;
   margin: 40px auto 0;
+}
+.upload button {
+  width: 100%;
+  max-width: 750px;
+  margin-top: 80px;
+  padding: 15px;
+  font-weight: bold;
+  color: rgb(19, 57, 121);
+  border-radius: 10px;
+  border: 5px solid #e0f5ff;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: #fff;
+}
+.upload__modal--window {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border: 5px solid #e0f5ff;
+  border-radius: 5px;
+  z-index: 100;
+  pointer-events: all;
+  overflow: scroll;
+}
+.upload__modal--window h2 {
+  color: rgb(19, 57, 121);
+  font-weight: bold;
+  font-size: 28px;
+  margin: 15px 0;
+}
+.upload__modal--window p {
+  text-align: left;
+  font-weight: 300;
+  width: 90%;
+  margin: 0 auto;
+}
+.upload__modal--overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+.upload__modal--close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(19, 57, 121);
+  cursor: pointer;
+}
+.upload__modal--close::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  width: 2px;
+  height: 14px;
+  background-color: rgb(19, 57, 121);
+  transform: rotate(45deg);
+}
+.upload__modal--close::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 14px;
+  width: 2px;
+  height: 14px;
+  background-color: rgb(19, 57, 121);
+  transform: rotate(-45deg);
 }/*# sourceMappingURL=style.css.map */
