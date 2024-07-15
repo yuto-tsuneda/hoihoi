@@ -10,7 +10,7 @@ header{
 	position: fixed;
 	width:100%;
 	background-color: rgba(255, 255, 255, 0.8);
-	height: 80px;
+	height: 60px;
 	align-items: center;
 	z-index: 50;
 	top: 0;
@@ -18,7 +18,7 @@ header{
 
 	img{
 		width: auto;
-		height: 70px;
+		height: 60px;
 	}
 
 	nav{
@@ -652,4 +652,108 @@ header{
 			transform: rotate(-45deg);
 		}
 	}
+}
+
+.sp__header{
+	display: none;
+}
+
+@media (max-width:1023px){
+	nav{
+		display: none;
+	}
+
+	.sp__header{
+		display: block;
+
+		&--humberger{
+			width: 60px;
+			height: 60px;
+			background-color: $main_color;
+			position: fixed;
+			top: 0;
+			right: 0;
+
+			span{
+				display: inline-block;
+				transition: all .4s;
+				position: absolute;
+				left: 16px;
+				height: 3px;
+				border-radius: 5px;
+				background-color: #fff;
+				width: 45%;
+			}
+
+			span:nth-of-type(1){
+				top: 16px;
+			}
+
+			span:nth-of-type(2){
+				top: 26px;
+			}
+
+			span:nth-of-type(3){
+				top: 36px;
+			}
+
+			&.active span:nth-of-type(1){
+				top: 26px;
+				transform: rotate(-45deg);
+			}
+
+			&.active span:nth-of-type(2){
+				opacity: 0;
+			}
+
+			&.active span:nth-of-type(3){
+				top:26px;
+				transform: rotate(45deg);
+			}
+		}
+	}
+
+	.sp__nav{
+		display: none;
+		background-color: $main_color;
+		color: #fff;
+		text-align: center;
+		font-weight: bold;
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 60px;
+		z-index: 100;
+
+		ul{
+			margin-top: 75px;
+			list-style: none;
+			padding: 0;
+
+		}
+
+		li{
+			padding:20px 0;
+			font-size: 15px;
+		}
+
+		&--white{
+			background-color: #fff;
+			color: $main_color;
+			padding: 20px 0;
+			max-width: 400px;
+			width: 80%;
+			margin: 0 auto;
+			border-radius: 10px;
+		}
+
+		&--line{
+			background-color: #fff;
+			max-width: 400px;
+			width: 80%;
+			height: 1px;
+			margin:40px auto;
+		}
+	}
+
 }
