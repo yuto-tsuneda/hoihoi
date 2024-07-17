@@ -10,14 +10,11 @@ $(function(){
 
   $(".sp__header--humberger").click(function(){
     $(this).toggleClass("active");
+    if($(this).hasClass("active")){
+      $(".sp__nav").fadeIn();
+    }else{
+      $(".sp__nav").fadeOut();
+    }
   });
-
-  $(".sp__header--humberger").click(function(){
-    $(".sp__nav").fadeIn();
-  });
-
-  $(".active").click(function(){
-    $(".sp__nav").fadeOut();
-  });
-
+  
 });
