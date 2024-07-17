@@ -27,7 +27,7 @@
 
     <div class="about">
         <h2>Maroudo HoiHoibr<br>の特徴</h2>
-        <p>800億imp/⽉・1億UUを保有する、SSPを直接買い付けることにより<br>⾼品質なオーディエンスに低価格での配信を実現。</p>
+        <p>800億imp/⽉・1億UUを保有する、<br>SSPを直接買い付けることにより⾼品<br>質なオーディエンスに低価格での配信を実現。</p>
         <div class="about__point">
             <div class="about__point--content">
                 <img src="http://hoihoi.local/wp-content/uploads/2024/07/features-box-image01.png" alt="集客">
@@ -55,7 +55,7 @@
 
     <div class="date">
         <h2>⾼品質な<br>Cookieデータを活⽤</h2>
-        <p>メンズエステの関連サイトにアクセスしているユーザーに対しターゲティングを⾏います。<br>媒体のAI機能で、ユーザーの類似ユーザーをセグメントし配信を⾏うことで⾮認知のユーザーにもアプローチをして、<br>ホームページに誘導し、⾒込み客を獲得します。</p>
+        <p class="date--text">メンズエステの関連サイトにアクセスしているユーザーに対しターゲティングを⾏います。<br>媒体のAI機能で、ユーザーの類似ユーザーをセグメントし配信を⾏うことで⾮認知のユーザーにもアプローチをして、<br>ホームページに誘導し、⾒込み客を獲得します。</p>
         <div class="date__content">
             <div class="date__content--box">
                 <img src="http://hoihoi.local/wp-content/uploads/2024/07/utilization-image01.png" alt="date_man">
@@ -191,7 +191,8 @@
         <div class="upload__notes">
             <p class="upload__notes--bk">※クリエイティブやランディングページの内容によって、媒体側で掲載のお断りをすることがございます。<br>※配信先毎のクリエイティブ指定、URL指定については対応をしかねますので、あらかじめご了承ください。<br>※配信にあたっては、「広告掲載規定」を順守していることが前提となります。<br>※クリエイティブの修正や制作は別途費⽤となります。</p>
         </div>
-        <img src="http://hoihoi.local/wp-content/uploads/2024/07/regulation-image02.png" alt="入稿まで">
+        <img class="upload__pc--img" src="http://hoihoi.local/wp-content/uploads/2024/07/regulation-image02.png" alt="入稿まで">
+        <img class="upload__sp--img" src="http://hoihoi.local/wp-content/uploads/2024/07/regulation-image01.png" alt="入稿まで">
         <button type="button" class="button">広告掲載規定</button>
         <div class="upload__modal--window">
             <div class="upload__modal--close"></div>
@@ -231,5 +232,8 @@
         </div>
         <div class="upload__modal--overlay"></div>
     </div>
-
+    <div class="form__bg">
+        <h2>お問い合わせ</h2>
+         <?php echo do_shortcode('[contact-form-7 id="e09d261" title="お問い合わせ"]'); ?>
+    </div>
 <?php get_footer(); ?>

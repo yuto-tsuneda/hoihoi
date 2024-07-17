@@ -30,3 +30,9 @@ Stack trace:
 #14 /Users/yuto/Local Sites/hoihoi/app/public/index.php(19): require('/Users/yuto/Loc...')
 #15 {main}
   thrown in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-hook.php on line 324
+[16-Jul-2024 03:04:58 UTC] PHP Parse error:  syntax error, unexpected integer "633", expecting ")" in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/index.php on line 236
+[16-Jul-2024 03:05:32 UTC] PHP Parse error:  syntax error, unexpected integer "633", expecting ")" in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/index.php on line 236
+[16-Jul-2024 03:05:44 UTC] PHP Parse error:  syntax error, unexpected integer "633", expecting ")" in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/index.php on line 236
+[16-Jul-2024 03:06:42 UTC] PHP Parse error:  syntax error, unexpected integer "633", expecting ")" in /Users/yuto/Local Sites/hoihoi/app/public/wp-content/themes/hoihoi/index.php on line 236
+[17-Jul-2024 03:24:15 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[17-Jul-2024 03:40:33 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/yuto/Local Sites/hoihoi/app/public/wp-includes/class-wp-customize-widgets.php on line 905
